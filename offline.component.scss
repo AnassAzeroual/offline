@@ -1,0 +1,49 @@
+.box {
+    width: 100vw;
+    height: 100vh;
+    background: #0000009c;
+    position: absolute;
+    z-index: 2;
+    .centreMessage {
+        color: white;
+        border: 1px solid #252525;
+        width: 300px;
+        height: 200px;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: #ffffffd1;
+        border-radius: 8px;
+        .text {
+            text-align: center;
+            color: black;
+            transform: translate(0px, 38px);
+            font-size: clamp(1rem, 2.5vw, 2rem);
+        }
+        .icon {
+            font-size: 85px;
+            transform: translate(105px, 15px);
+            animation: icon_animate;
+            animation-duration: 2s;
+            animation-direction: alternate;
+            animation-iteration-count: infinite;
+        }
+        .close {
+            color: #000;
+            transform: translate(287px, -12px);
+            background: #e3e3e3;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+    }
+}
+
+@keyframes icon_animate {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
