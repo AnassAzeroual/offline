@@ -2,4 +2,4 @@
 Angular component offline
 
 # How use it ?
-1 Star me 😉 > Download > Declar in app module > Done
+1 Star me 😉 > Download > Declare in the app module > Done
