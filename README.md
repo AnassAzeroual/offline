@@ -1,0 +1,2 @@
+# offline
+Angular component offline 
